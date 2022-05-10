@@ -28,7 +28,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECRET_KEY = 'django-insecure-jre=ehs(1stpo7&*jgl7fr=bo3+sspke+%bq-ss8lv1kq(_wg5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -127,5 +127,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STATICFILES_STORAGE = ('whitenoise.storage.CompressedManifestStaticFilesStorage') 
 import django_on_heroku
 django_on_heroku.settings(locals())
