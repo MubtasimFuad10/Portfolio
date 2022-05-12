@@ -1,5 +1,5 @@
 """
-ASGI config for MyPortofolio project.
+ASGI config for MyPortfolio project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MyPortofolio.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MyPortfolio.settings')
 
 application = get_asgi_application()
