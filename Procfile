@@ -1,1 +1,1 @@
-web: python MyPortoflio/manage.py runserver 0.0.0.0:\$PORT
+web: python MyPortflio/manage.py runserver 0.0.0.0:\$PORT
