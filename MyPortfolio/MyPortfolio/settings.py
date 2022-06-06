@@ -28,9 +28,9 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECRET_KEY = 'django-insecure-jre=ehs(1stpo7&*jgl7fr=bo3+sspke+%bq-ss8lv1kq(_wg5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['mubtasimfuad10.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
